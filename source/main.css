@@ -1,0 +1,26 @@
+@font-face {
+    font-family: Monoid;
+    src: url('./fonts/monoid/Monoid-Regular-Tight-Large-Dollar-l.ttf');
+    font-weight: normal;
+    font-style: normal;
+}
+
+html {
+    background-color: #000;
+}
+
+command {
+    display: block;
+    white-space: pre-wrap;
+    padding: 10px;
+    line-height: 1.5em;
+    font-family: 'Monoid', monospace;
+}
+
+/** Include terminal words down here:
+hello
+*/
+
+term-hello {
+    color: #FF64AD;
+}
