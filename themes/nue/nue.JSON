@@ -1,0 +1,162 @@
+{
+    "$": "theme/nue",
+    "background": {
+        "border": false,
+        "color": "#000000"
+    },
+    "name": "Nue",
+    "terminal": {
+        "font": {
+            "family": {
+                "bold": {
+                    "file": "./monoid/Monoid-Bold-Tight-Large-Dollar-l.ttf",
+                    "name": "Monoid Bold"
+                },
+                "italic": {
+                    "file": "./monoid/Monoid-Italic-Tight-Large-Dollar-l.ttf",
+                    "name": "Monoid Italic"
+                },
+                "regular": {
+                    "file": "./monoid/Monoid-Regular-Tight-Large-Dollar-l.ttf",
+                    "name": "Monoid Regular"
+                }
+            },
+            "font": "Monoid",
+            "ligatures": true
+        },
+        "syntax": {
+            "authenticate": {
+                "color": "#AE71FF",
+                "font": "bold"
+            }
+        }
+    },
+    "text": {
+        "color": "#FFFFFF",
+        "font": {
+            "family": {
+                "bold": {
+                    "file": "./iosevka-ss04/ttf/iosevka-ss04-bold.ttf",
+                    "name": "Iosevka SS04 Bold"
+                },
+
+                "bold italic": {
+                    "file": "./iosevka-ss04/ttf/iosevka-ss04-bolditalic.ttf",
+                    "name": "Iosevka SS04 Bold Italic"
+                },
+
+                "bold oblique": {
+                    "file": "./iosevka-ss04/ttf/iosevka-ss04-boldoblique.ttf",
+                    "name": "Iosevka SS04 Bold Oblique"
+                },
+
+                "extra bold": {
+                    "file": "./iosevka-ss04/ttf/iosevka-ss04-extrabold.ttf",
+                    "name": "Iosevka SS04 Extra Bold"
+                },
+
+                "extra bold italic": {
+                    "file": "./iosevka-ss04/ttf/iosevka-ss04-extrabolditalic.ttf",
+                    "name": "Iosevka SS04 Extra Bold Italic"
+                },
+
+                "extra bold oblique": {
+                    "file": "./iosevka-ss04/ttf/iosevka-ss04-extraboldoblique.ttf",
+                    "name": "Iosevka SS04 Extra Bold Oblique"
+                },
+
+                "heavy": {
+                    "file": "./iosevka-ss04/ttf/iosevka-ss04-heavy.ttf",
+                    "name": "Iosevka SS04 Heavy"
+                },
+
+                "heavy italic": {
+                    "file": "./iosevka-ss04/ttf/iosevka-ss04-heavyitalic.ttf",
+                    "name": "Iosevka SS04 Heavy Italic"
+                },
+
+                "heavy oblique": {
+                    "file": "./iosevka-ss04/ttf/iosevka-ss04-heavyoblique.ttf",
+                    "name": "Iosevka SS04 Heavy Oblique"
+                },
+
+                "italic": {
+                    "file": "./iosevka-ss04/ttf/iosevka-ss04-italic.ttf",
+                    "name": "Iosevka SS04 Italic"
+                },
+
+                "light": {
+                    "file": "./iosevka-ss04/ttf/iosevka-ss04-light.ttf",
+                    "name": "Iosevka SS04 Light"
+                },
+
+                "light italic": {
+                    "file": "./iosevka-ss04/ttf/iosevka-ss04-lightitalic.ttf",
+                    "name": "Iosevka SS04 Light Italic"
+                },
+
+                "light oblique": {
+                    "file": "./iosevka-ss04/ttf/iosevka-ss04-lightoblique.ttf",
+                    "name": "Iosevka SS04 Light Oblique"
+                },
+
+                "medium": {
+                    "file": "./iosevka-ss04/ttf/iosevka-ss04-medium.ttf",
+                    "name": "Iosevka SS04 Medium"
+                },
+
+                "medium italic": {
+                    "file": "./iosevka-ss04/ttf/iosevka-ss04-mediumitalic.ttf",
+                    "name": "Iosevka SS04 Medium Italic"
+                },
+
+                "medium oblique": {
+                    "file": "./iosevka-ss04/ttf/iosevka-ss04-mediumoblique.ttf",
+                    "name": "Iosevka SS04 Medium Oblique"
+                },
+
+                "oblique": {
+                    "file": "./iosevka-ss04/ttf/iosevka-ss04-oblique.ttf",
+                    "name": "Iosevka SS04 Oblique"
+                },
+
+                "regular": {
+                    "file": "./iosevka-ss04/ttf/iosevka-ss04-regular.ttf",
+                    "name": "Iosevka SS04 Regular"
+                },
+
+                "semi-bold": {
+                    "file": "./iosevka-ss04/ttf/iosevka-ss04-semibold.ttf",
+                    "name": "Iosevka SS04 Semi-Bold"
+                },
+
+                "semi-bold italic": {
+                    "file": "./iosevka-ss04/ttf/iosevka-ss04-semiboldoblique.ttf",
+                    "name": "Iosevka SS04 Semi-Bold Italic"
+                },
+
+                "semi-bold oblique": {
+                    "file": "./iosevka-ss04/ttf/iosevka-ss04-semiboldoblique.ttf",
+                    "name": "Iosevka SS04 Semi-Bold Oblique"
+                },
+
+                "thin": {
+                    "file": "./iosevka-ss04/ttf/iosevka-ss04-thin.ttf",
+                    "name": "Iosevka SS04 Thin"
+                },
+
+                "thin italic": {
+                    "file": "./iosevka-ss04/ttf/iosevka-ss04-thinitalic.ttf",
+                    "name": "Iosevka SS04 Thin Italic"
+                },
+
+                "thin oblique": {
+                    "file": "./iosevka-ss04/ttf/iosevka-ss04-thinoblique.ttf",
+                    "name": "Iosevka SS04 Thin Oblique"
+                }
+            },
+            "font": "Iosevka SS04",
+            "ligatures": true
+        }
+    }
+}

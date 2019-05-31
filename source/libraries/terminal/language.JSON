@@ -1,0 +1,180 @@
+{
+   "language": {
+        "authenticate": {
+            "language": {
+                "english": "authenticate"
+            },
+
+            "meta": "Starts the authentication protocol to logon"  
+        },
+
+        "call": {
+            "format": {
+                "color": "#7A81FF",
+                "type": "bold"
+            },
+
+            "language": {
+                "english": "call"
+            },
+
+            "meta": "Starts a call with someone",
+
+            "routine": {
+                "audio": {
+                    "format": {
+                        "color": "#9176FF",
+                        "type": "italic"
+                    },
+                    "meta": "Starts an audio call with someone",
+                    "language": {
+                        "english": "audio"
+                    }
+                },
+                "video": {
+                    "format": {
+                        "color": "#9176FF",
+                        "type": "italic"
+                    },
+                    "meta": "Starts an video call with someone",
+                    "language": {
+                        "english": "video"
+                    }
+                }
+            }
+        },
+
+        "hello": {
+            "format": {
+                "color": "#FF64AD",
+                "type": "bold"
+            },
+
+            "language": {
+                "english": "hello"
+            },
+
+            "meta": "Creates an account in order to use Analogue-1 for the first time"
+        },
+
+        "goodbye": {
+            "format": {
+                "color": "#FF64AD",
+                "type": "bold"
+            },
+
+            "language": {
+                "english": "goodbye"
+            },
+
+            "meta": "Logs out of the application and automatically caches your session"
+        },
+
+        "new": {
+            "format": {
+                "color": "#FF3847",
+                "type": "italic"
+            },
+
+            "language": {
+                "english": "new"
+            },
+            
+            "meta": "Creates a new instance",
+
+            "routine": {
+                "chat": {
+                    "format": {
+                        "color": "#FF7F64",
+                        "type": "regular"
+                    },
+                    "language": {
+                        "english": "chat"
+                    },
+                    "meta": "Starts a peer-to-peer chat with someone"
+                },
+
+                "friend": {
+                    "format": {
+                        "color": "#FF7F64",
+                        "type": "regular"
+                    },
+                    "language": {
+                        "english": "chat"
+                    },
+                    "meta": "Sends a friend request to another account instance"
+                },
+
+                "tab": {
+                    "format": {
+                        "color": "#FF7F64",
+                        "type": "regular"
+                    },
+                    "language": {
+                        "english": "tab"
+                    },
+                    "meta": "Opens a new tab"
+                }
+            }
+        },
+
+        "open": {
+            "format": {
+                "color": "#37FD63",
+                "type": "regular"
+            },
+
+            "language": {
+                "english": "open"
+            },
+
+            "meta": "Opens an instance",
+
+            "routine": {
+                "contacts": {
+                    "format": {
+                        "color": "#37FCEE",
+                        "type": "italic"
+                    },
+                    "language": {
+                        "english": "contacts"
+                    },
+                    "meta": "Opens your account's contact list of friends"
+                },
+
+                "history": {
+                    "format": {
+                        "color": "#37FCEE",
+                        "type": "italic"
+                    },
+                    "language": {
+                        "english": "history"
+                    },
+                    "meta": "Opens your application's tab history"
+                },
+
+                "queue": {
+                    "format": {
+                        "color": "#37FCEE",
+                        "type": "italic"
+                    },
+                    "language": {
+                        "english": "queue"
+                    },
+                    "meta": "Opens your application's notifications queue"
+                },
+
+                "yesterday": {
+                    "format": {
+                        "color": "#FF3847",
+                        "type": "bold italic"
+                    },
+                    "language": {
+                        "english": "yesterday"
+                    },
+                    "meta": "Restores the last cached session"
+                }
+            }
+        }
+    }
+}
