@@ -1,6 +1,4 @@
 const { app, BrowserWindow } = require('electron')
-const configure = require('./config.js')
-const fs = require('fs')
 
 /** If A1 just installed
  * Then it is not configured
@@ -10,8 +8,8 @@ let configured = false
 
 function createWindow() {
     let win = new BrowserWindow({
-        width = 800,
-        height = 400,
+        width: 800,
+        height: 400,
         webPreferences: {
             nodeIntegration: true
           }
