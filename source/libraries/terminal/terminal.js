@@ -1,6 +1,6 @@
 const fs = require('fs')
 
-lang = null
+let lang
 
 // Get the terminal syntax JSON
 getTerminalSyntax = (callback) => {
@@ -25,10 +25,10 @@ switch (lang) {
 }
 
 highlights = () => {
-    var ca = document.getElementById("command")
-    for(i=0; i < ca.clientHeight; i++) {
+    var ca = document.getElementsByTagName("textarea")
+    for(i=0; i < ca.length; i++) {
         data = ca[i].innerHTML
-        
+
         switch (data) {
             case data.indexOf("hello") !== -1:
                 data.replace(/hello/gi, '<span class="term-hello">hello</span>')

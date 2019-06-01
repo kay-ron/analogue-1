@@ -8,14 +8,14 @@ let configured = false
 
 function createWindow() {
     let win = new BrowserWindow({
-        width: 800,
-        height: 400,
+        width: 1080,
+        height: 540,
         webPreferences: {
             nodeIntegration: true
           }
     })
 
-    win.loadFile('index.html')
+    win.loadURL(`file://${__dirname}/source/index.html`)
 
     win.webContents.openDevTools()
 

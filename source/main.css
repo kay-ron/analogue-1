@@ -1,20 +1,21 @@
 @font-face {
     font-family: Monoid;
-    src: url('./fonts/monoid/Monoid-Regular-Tight-Large-Dollar-l.ttf');
-    font-weight: normal;
-    font-style: normal;
+    src: url('Monoid-Regular-Tight-Large-Dollar-l.ttf');
+
 }
 
-html {
-    background-color: #000;
+body {
+    background: #000;
 }
 
-command {
+textarea {
+    background: transparent;
+    color: #fff;
     display: block;
-    white-space: pre-wrap;
-    padding: 10px;
+    font-family: Monoid;
     line-height: 1.5em;
-    font-family: 'Monoid', monospace;
+    padding: 10px;
+    white-space: pre-wrap;
 }
 
 /** Include terminal words down here:
